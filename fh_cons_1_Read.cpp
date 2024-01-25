@@ -1,0 +1,13 @@
+#include<iostream>
+#include<fstream>
+#include<string>
+using namespace std;
+int main(){
+    string str;
+	ifstream in("input.txt");
+	while(in){
+        in>> str;
+        cout<<str<<" ";
+    }
+return 0;
+}
